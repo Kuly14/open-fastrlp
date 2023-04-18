@@ -250,8 +250,7 @@ checksum = "90e5c1c8368803113bf0c9584fc495a58b86dc8a29edbf8fe877d21d9507e797"
 [[package]]
 name = "ethbloom"
 version = "0.13.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c22d4b5885b6aa2fe5e8b9329fb8d232bf739e434e6b87347c63bdd00c120f60"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "crunchy",
  "fixed-hash",
@@ -264,9 +263,8 @@ dependencies = [
 
 [[package]]
 name = "ethereum-types"
-version = "0.14.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "81224dc661606574f5a0f28c9947d0ee1d93ff11c5f1c4e7272f52e8c0b5483c"
+version = "0.14.1"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "ethbloom",
  "fixed-hash",
@@ -287,8 +285,7 @@ checksum = "2eac3c0b9fa6eb75255ebb42c0ba3e2210d102a66d2795afef6fed668f373311"
 [[package]]
 name = "fixed-hash"
 version = "0.8.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "835c052cb0c08c1acf6ffd71c022172e18723949c8282f2b9f27efbc51e64534"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "byteorder",
  "rand",
@@ -349,8 +346,7 @@ checksum = "7ebdb29d2ea9ed0083cd8cece49bbd968021bd99b0849edb4a9a7ee0fdf6a4e0"
 [[package]]
 name = "impl-codec"
 version = "0.6.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ba6a270039626615617f3f36d15fc827041df3b78c439da2cadfa47455a77f2f"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "parity-scale-codec",
 ]
@@ -358,8 +354,7 @@ dependencies = [
 [[package]]
 name = "impl-rlp"
 version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f28220f89297a075ddc7245cd538076ee98b01f2a9c23a53a4f1105d5a322808"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "rlp",
 ]
@@ -367,8 +362,7 @@ dependencies = [
 [[package]]
 name = "impl-serde"
 version = "0.4.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ebc88fc67028ae3db0c853baa36269d398d5f45b6982f95549ff5def78c935cd"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "serde",
 ]
@@ -573,8 +567,7 @@ checksum = "eb9f9e6e233e5c4a35559a617bf40a4ec447db2e84c20b55a6f83167b7e57872"
 [[package]]
 name = "primitive-types"
 version = "0.12.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9f3486ccba82358b11a77516035647c34ba167dfa53312630de83b12bd4f3d66"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "fixed-hash",
  "impl-codec",
@@ -715,8 +708,7 @@ checksum = "a3f87b73ce11b1619a3c6332f45341e0047173771e8b8b73f87bfeefb7b56244"
 [[package]]
 name = "rlp"
 version = "0.5.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bb919243f34364b6bd2fc10ef797edbfa75f33c252e7998527479c6d6b47e1ec"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "bytes",
  "rustc-hex",
@@ -883,9 +875,8 @@ dependencies = [
 
 [[package]]
 name = "uint"
-version = "0.9.4"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a45526d29728d135c2900b0d30573fe3ee79fceb12ef534c7bb30e810a91b601"
+version = "0.9.5"
+source = "git+https://github.com/core-coin/core-common#f65a40dbffd3bade3c8321cfcb044e77d09d6463"
 dependencies = [
  "byteorder",
  "crunchy",
