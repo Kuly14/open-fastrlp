@@ -247,6 +247,7 @@ mod ethereum_types_support {
     fixed_hash_impl!(H160);
     fixed_hash_impl!(H176);
     fixed_hash_impl!(H256);
+    fixed_hash_impl!(H456);
     fixed_hash_impl!(H512);
     fixed_hash_impl!(H520);
     fixed_hash_impl!(Bloom);
@@ -279,6 +280,7 @@ mod ethereum_types_support {
     fixed_uint_impl!(U64, 8);
     fixed_uint_impl!(U128, 16);
     fixed_uint_impl!(U256, 32);
+    fixed_uint_impl!(U456, 57);
     fixed_uint_impl!(U512, 64);
 }
 
