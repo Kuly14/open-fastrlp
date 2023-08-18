@@ -221,6 +221,7 @@ mod ethereum_types_support {
     fixed_hash_impl!(H456);
     fixed_hash_impl!(H512);
     fixed_hash_impl!(H520);
+    fixed_hash_impl!(H1368);
     fixed_hash_impl!(Bloom);
 
     macro_rules! fixed_uint_impl {
@@ -250,6 +251,7 @@ mod ethereum_types_support {
     fixed_uint_impl!(U256, 32);
     fixed_uint_impl!(U456, 57);
     fixed_uint_impl!(U512, 64);
+    fixed_uint_impl!(U1368, 171);
 }
 
 macro_rules! slice_impl {
